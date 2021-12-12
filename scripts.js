@@ -57,5 +57,5 @@ document.querySelector("#generate").addEventListener("click", function (event) {
     password = password + randChar;
   }
 
-  document.querySelector("#text-area").value = password;
+  document.querySelector("#text-area").textContent = password;
 });
