@@ -59,3 +59,14 @@ document.querySelector("#generate").addEventListener("click", function (event) {
 
   document.querySelector("#text-area").textContent = password;
 });
+
+function copyAndPaste() {
+  console.log("********");
+    /* Get the text field */
+    var copyText = document.querySelector("#text-area").textContent;
+
+     /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText);
+  }
+
+document.querySelector("#copy-and-paste").addEventListener("click", copyAndPaste )

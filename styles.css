@@ -22,10 +22,24 @@
 #generate {
   display: flex;
   justify-content: center;
-  margin: 32px auto;
   background-color: red;
   color: white;
   border-radius: 100px;
-  padding: 10px 11px;
+  padding: 8px;
   font-size: 15px;
+  margin: auto;
+}
+
+#generate-in-div{
+  width: 590px;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#copy-and-paste{
+  display: flex;
+  margin: auto;
+  padding: 9px 18px;
+  border-radius: 100px;
 }
